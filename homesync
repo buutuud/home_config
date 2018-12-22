@@ -1,2 +1,7 @@
 #!/bin/sh
-cd $HOME/.home && git add -A && git commit -m"Audo Commit Home Config" && git push
+case $1 in
+  (push) cd $HOME/.home && git add -A && git commit -m"Audo Commit Home Config" && git push;;
+  (pull) cd $HOME/.home && git pull;;
+  (*)   echo "How did I get in the middle of nowhere?";;
+esac
+
