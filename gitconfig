@@ -1,0 +1,27 @@
+[user]
+	name = happyyi
+	email = immb@qq.com
+[credential]
+    helper = store
+[alias]
+	co = checkout
+	br = branch
+	st = status
+	dt = difftool
+	mt = mergetool
+	logtree = log --oneline --graph --all --decorate
+	lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+[core]
+	editor = gvim
+	autocrlf = input
+	excludesfile = ${HOME}/.gitignore_global
+[color]
+	ui = true
+[diff]
+	renames = copy
+[difftool]
+	prompt = false
+[mergetool]
+	prompt = false
+[gui]
+	fontdiff = -family Monaco -size 10 -weight normal -slant roman -underline 0 -overstrike 0
