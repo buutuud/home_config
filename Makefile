@@ -11,6 +11,6 @@ clean:
 	rm ${HOME}/.gitconfig
 
 sync:
-	#rm /usr/local/bin/homesync 
+	@-rm /usr/local/bin/homesync
 	ln -s $(pwd)/homesync /usr/local/bin/homesync
-	chmod +x /usr/local/bin/homesync
+	@-chmod +x /usr/local/bin/homesync
