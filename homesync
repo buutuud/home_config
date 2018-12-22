@@ -1,0 +1,2 @@
+#!/bin/sh
+cd $HOME/.home && git add -A && git commit -m"Audo Commit Home Config" && git push
