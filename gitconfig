@@ -4,7 +4,7 @@
 [credential]
     helper = store
 [alias]
-	co = checkout
+	co = checkout --single-branch
 	br = branch
 	st = status
 	dt = difftool
